@@ -36,3 +36,43 @@ footer {
     text-align: center;
     color: #d0d0d0;
 }
+
+.container {
+    height: 100%;
+    font-size: 14px;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+
+    display: flex;
+    padding-top: 20px;
+}
+.menu {
+    background-color:#edeef0;
+}
+
+.menu-list {
+    width: 260px;
+    padding: 0 30px 50px 50px;
+}
+
+
+ul > li {
+    list-style: none;
+    padding: 10px;
+}
+
+ul > li:hover, ul > li:active {
+    background-color: #e1e5eb;
+}
+
+ul > li a {
+    color: #2e5473;
+}
+
+.content {
+    color: black;
+    text-align: justify;
+    width: 450px;
+    margin-right: 250px;
+}
